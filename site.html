@@ -1,0 +1,14 @@
+<input id="myFiles" onchange="setPicture(event)" type="file">
+
+<img id="one" src="" alt="">
+
+<script>
+
+    function setPicture(evt){
+
+        one.src = URL.createObjectURL(myFiles.files[0])
+
+    }
+
+
+</script>
